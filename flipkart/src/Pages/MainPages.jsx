@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-import Electronics from "../components/Electronics";
+import MainLeft from "../components/MainLeft";
+// import Electronics from "../components/Electronics";
 
 
 function MainPages(){
@@ -9,6 +10,7 @@ function MainPages(){
         <div>
             <Header/>
         <Navbar/>
+        <MainLeft/>
         </div>
         
 

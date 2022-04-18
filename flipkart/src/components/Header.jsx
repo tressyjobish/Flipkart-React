@@ -16,7 +16,7 @@ function Header() {
     <div className="header">
       <div className="header-first">
         <AiOutlineArrowLeft className="arrow-icon" />
-        <img className="flip-logo" src={Logo} alt="" />
+        <img className="flip-logo" src={Logo} alt=""/>
         <h4 className="mobiles-display">mobiles</h4>
 
         <img  src={Flipkartplus} alt="" />
