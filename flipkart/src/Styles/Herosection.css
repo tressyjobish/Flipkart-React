@@ -16,18 +16,91 @@
     .star-rate {
         display: none;
     }
-    .star-rating span{
-        display: none;
-    }
+    
     .gb-ul{
         display: none;
     }
     .poco{
         font-size: 12px !important;
     }
-    .ass-logo{
-        padding-right: 10rem;
+     
+    .media{
+        display: flex !important;
+        padding-left: 2rem;
+        color: #878787;
+        
     }
+    .rating-no{
+        color:#878787 !important;
+    
+    }
+    .rating span{
+        display: flex !important;
+    }
+    .media-img{
+        display: flex !important;
+        
+
+    }
+    
+    .media-imge{
+        width:3rem !important;
+        height:1rem;
+        padding-left:1rem;
+    }
+    .mob-poco{
+        padding-bottom: 7rem;
+        align-items: center;
+        text-align: start;
+    }
+    .media-image{
+        display: flex !important;
+    }
+    .rating-no{
+        display: flex !important;
+    }
+    .media-imge{
+        display: flex !important;
+    }
+    .amt-media{display: flex !important;
+        padding-left: 2rem;
+        gap:3px;
+
+    }
+    .line-amt{
+        font-size: 10px;
+        color: #878787;
+    }
+    .off-amt{
+        font-size: 10px;
+        color: rgba(75,181,80, 1.00);
+    }
+    .free-delivery{
+        padding-left: 2rem;
+        color: #000000;
+    }
+    
+    .upto-media{
+        display: flex !important;
+        padding-left: 2rem;
+    }
+    .bank-offer{
+        display: flex !important;
+        padding-left: 2rem;
+        color: #26A541;
+        padding-bottom:4rem;
+    }
+    .gb-container{
+        display:block !important;
+        padding-right: 2rem;
+    }
+    .div-display{
+        display: flex;
+    }
+    .div-22{
+        padding-left: 1rem;
+    }
+
     
 }
 
@@ -39,6 +112,9 @@
     background-color: aqua;
 
 } */
+.media-img{
+    display: none;
+}
 .home{
     background: #fff;
     padding: 12px 16px 0;
@@ -104,7 +180,7 @@
     color:#2874f0;
 }
 .mob-poco{
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
     display: flex;
 }
 .poco-amt{
@@ -172,5 +248,22 @@
     display: none;
 } 
 
-
+.rating-no{
+    display: none;
+}
+.media-imge{
+    display: none;
+}
+.amt-media{
+    display: none;
+}
+.upto-media{
+    display: none;
+}
+.bank-offer{
+    display: none;
+}
+.gb-container{
+    display: none;
+}
 

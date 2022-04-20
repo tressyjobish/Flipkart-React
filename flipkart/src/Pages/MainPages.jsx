@@ -15,6 +15,8 @@ function MainPages(){
         <Navbar/>
         <div className="main">
             <MainLeft />
+            
+
         <Herosection/>
         </div>
         
