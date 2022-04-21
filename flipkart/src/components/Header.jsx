@@ -17,7 +17,7 @@ function Header() {
       <div className="header-first">
         <AiOutlineArrowLeft className="arrow-icon" />
         <img className="flip-logo" src={Logo} alt=""/>
-        <h4 className="mobiles-display">mobiles</h4>
+        <h4 className="mobiles-display">Mobiles</h4>
 
         <img  src={Flipkartplus} alt="" />
 
@@ -68,11 +68,11 @@ function Header() {
       </div>
       <div className="header-sixth">
         <HiShoppingCart className="cart-icon" />
-        <p>Cart</p>
+        <p className="cart-img">Cart</p>
         <p className="login-btn">Login</p>
       </div>
     </div>
   );
 }
 
-export default Header;
+export default Header; 
