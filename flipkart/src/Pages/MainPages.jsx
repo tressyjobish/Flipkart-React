@@ -1,29 +1,23 @@
-import React from "react";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import MainLeft from "../components/MainLeft";
-import Herosection from "../components/Herosection";
-// import Electronics from "../components/Electronics";
-import "../Styles/main.css"
+import React, { useState } from "react";
+import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
+import MainLeft from "../Components/MainLeft";
+import Herosection from "../Components/Herosection";
+import "../Styles/main.css";
 
+function MainPages() {
+  const [selected, setSelected] = useState("");
+  return (
+    <div>
+      <Header />
 
-function MainPages(){
-    return(
-        <div>
-            <Header/>
-        
-        <Navbar/>
-        <div className="main">
-            <MainLeft />
-            
-
-        <Herosection/>
-        </div>
-        
-        </div>
-        
-
-    )
+      <Navbar />
+      <div className="main">
+        <MainLeft selected={selected} setSelected={setSelected} />
+        <Herosection />
+      </div>
+    </div>
+  );
 }
 
 export default MainPages;

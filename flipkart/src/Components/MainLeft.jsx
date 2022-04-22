@@ -7,8 +7,8 @@ import { FaSortDown } from "react-icons/fa";
 import { assurlogo } from "../assets/Images";
 
 import "../Styles/MainLeft.css";
-function MainLeft() {
-  const [isActive, setIsActive] = useState("brand");
+function MainLeft({selected, setSelected}) {
+  const [isActive, setIsActive] = useState(false);
 
    const handleDropdownClick = (e) => {
     setIsActive(e.target.value);
@@ -100,19 +100,19 @@ function MainLeft() {
           {/*  */}
           
 
-          <div className="brandsection" onClick={() => setIsActive(!isActive)}>
+          <div className="brandsection" onClick={(e) => setIsActive(!isActive )}>
             <h3 className="brand">BRAND</h3>
             {isActive ? <IoIosArrowUp className="arrowdown" /> : <IoIosArrowDown className="arrowdown" />}
           </div>
 
           {isActive && (
             <div className="accordion-content">
-              {
+             {
                 <ul>
                   <li>x Clear all </li>
                   <li>Search Brand</li>
                 </ul>
-              }
+}
             </div>
           )}
        
