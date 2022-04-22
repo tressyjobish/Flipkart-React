@@ -1,0 +1,28 @@
+.electronics-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    padding-top: 2rem;
+  }
+  .electronics-li {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2rem;
+    
+  }
+  
+  .electronics-li  h4 {
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+  
+  .electronics-li ul {
+    line-height: 2rem;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+  }
