@@ -1,7 +1,7 @@
 import { mob1, mob2, mob3 } from "../../assets/Images/index";
 
 const CardItems = [
-  { id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM" },
+  { id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM",rate:"₹9,499"},
   {
     id: 2,
     imgsrc: mob2,
@@ -21,7 +21,7 @@ const CardItems = [
     imgsrc: mob2,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate:"₹11,499",
+    rate:"₹12,499",
   },
   {id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM",rate:"₹11,499", },
   {
@@ -29,7 +29,7 @@ const CardItems = [
     imgsrc: mob3,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate:"₹11,499",
+    rate:"₹9,499",
   },
   { id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM",rate:"₹11,499", },
   {

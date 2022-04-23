@@ -34,7 +34,7 @@ function Card({ cardData }) {
             </div>
             <div>
               <div className="amt-media">
-                <span>₹11,499</span>
+                <span>{cardData.rate}</span>
                 <span className="line-amt">12,999</span>
                 <span className="off-amt">11%off</span>
               </div>

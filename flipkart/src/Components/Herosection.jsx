@@ -73,6 +73,36 @@ function Herosection() {
           return <Card cardData={CardItem} key={index} />;
         })}
       </div>
+      <div className="colum-number">
+      <div className="number">
+        <div> <span className="number-pages">Page 1 of 32</span></div>
+        <div className="row-number">
+        <a className="figure-a" href="">1</a>
+        <a className="figure-b" href="">2</a>
+        <a className="figure-b" href="">3</a>
+        <a className="figure-b" href="">4</a>
+        <a className="figure-b" href="">5</a>
+        <a className="figure-b" href="">6</a>
+        <a className="figure-b" href="">7</a>
+        <a className="figure-b" href="">8</a>
+        <a className="figure-b" href="">9</a>
+        <a className="figure-b" href="">10</a>
+        <a className="figure-c" href="">NEXT</a>
+
+      </div>
+        </div>
+        </div>
+        <div className="yes-no">
+          <div className="data-yes">
+           <div> <span>Did you find what you were looking for ?</span></div>
+            <div className="option">
+              <span className="option-yes">Yes</span>
+              <span className="option-no">No</span>
+            </div>
+          </div>
+
+        </div>
+      
     </div>
   );
 }
