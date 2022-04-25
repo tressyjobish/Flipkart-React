@@ -20,19 +20,17 @@ function MainLeft({selected, setSelected}) {
         <div className="main-sectionfliter">
           <span className="fliter">Fliters</span>
         </div>
-        )
-        <div className="main-right">
-          <span>CLEAR ALL</span>
-        </div>
+        
+        
         <div className="fliter-content">
-          <div className="fliter-info">
+          {/* <div className="fliter-info">
             <div className="fliter-sign">x</div>
             <div class="fliter-amt">Min-₹50000+</div>
           </div>
           <div className="fliter-info">
             <div className="fliter-sign">x</div>
             <div class="fliter-amt">SAMSUNG</div>
-          </div>
+          </div> */}
         </div>
         <div>
           <div className="cate">

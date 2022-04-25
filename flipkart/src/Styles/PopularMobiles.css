@@ -1,8 +1,59 @@
+@media only screen and (max-width:560px) {
+    .poco-media{
+        
+        font-size: 1px;
+}
+
+.gb-ram  li{
+    font-size:7px;
+    }
+    .gb-ram{
+        font-size: 2px !important;
+        line-height: normal;
+
+    }
+    .mobile-most p {
+        font: size 2px !important;
+
+        
+    }
+    .most-mobile{
+        padding-bottom: 2rem;
+    }
+    .most h3{
+        
+        padding-left: 1rem !important;
+    }
+    .most-helpful{
+        padding-right:1rem;
+        display: flex;
+    }
+     .fabulous-sentence p{
+         font-size:6px;
+     }
+     .fabulous{
+        margin-left: 1rem !important;
+        font-size: 2rem;
+     }
+     .read span{
+         font-size:5px;
+     }
+     .name p{
+         font-size:5px;
+     }
+     .fab{
+         font-size: 3px;
+     }
+    
+
+}
+
+
 .review {font-size:20px;
     font-weight: 500;
     padding: 10px 20px;
     border-bottom: 1px solid #f0f0f0;
-    width: 100%;
+   
     font-family: Roboto,Arial,sans-serif;
     ;}
     .popular-mobiles{
@@ -30,11 +81,9 @@
     .most-mobile{
         display: flex;
     }
-    
-    
     .most h3{
         display: flex;
-        padding-left:8rem;
+         padding-left:8rem; 
         font-size: 14px;
         color: #878787;
     }
@@ -81,11 +130,13 @@
         font-size: 12px;
     color: #878787;
     margin-right: 8px;
-    padding-left: 3rem;
+    
     }
     .name{
         display: flex;
-    }
+      padding-left: 4rem;
+        }
+    
     .tick{
         margin-right: 4px;
         width: 14px;
@@ -103,10 +154,53 @@
     width: 20px;
     border-radius: 50%;
     }
-.gb-ram{
+/* .gb-ram{
     font-size:15px;
     line-height:2rem;
-}
+} */
 .li{
     display: none;
 }
+.review-content{
+    display: flex;
+    padding-left: 8rem;
+    font-size: 14px;
+    color: #878787;
+}
+ .review-rating{
+
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #ff6161!important;
+    margin-left: 7rem;
+
+} 
+.terrible-product span{
+    display: flex;
+    font-size: 15px;
+    
+
+}
+.recent-review{
+    display:flex;
+}
+.poor-battery{
+    padding-left: 8rem;
+    
+}.very-poor{
+    font-size: 15px;
+    padding-left: 8rem;
+}
+.name-rating{
+    font-size: 12px;
+    color: #878787;
+    margin-right: 8px;
+    display: flex;
+    }
+

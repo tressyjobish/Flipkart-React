@@ -19,6 +19,7 @@
     padding: 0px 0px 0px 0px;
 
 }
+ 
 
 .fliter-content {
     margin: 4rem 0 0 -4px;
@@ -38,15 +39,14 @@
     overflow: hidden;
 
     padding: 9px;
-
-
-
 }
 
 .main-sectionfliter {
     display: flex;
     margin-bottom: -1rem;
     padding-top: 1rem;
+    height:1rem;
+    
 }
 
 .main-right {
@@ -61,10 +61,8 @@
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 1rem;
-
-
-
     margin-left: 2rem;
+
 } 
 
 .mobiles-Accessory {
@@ -72,8 +70,7 @@
 }
 
 .cate {
-    margin-top: 2rem;
-    padding: 16px;
+
     border-bottom: 3px solid #f0f0f0;
     border-top: 3px solid #f0f0f0;
 }

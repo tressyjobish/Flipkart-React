@@ -5,6 +5,7 @@ import MainLeft from "../Components/MainLeft";
 import Herosection from "../Components/Herosection";
 import PopularMobiles from "../Components/PopularMobiles";
 import "../Styles/main.css";
+import { mobiles } from "../Components/Constants/Popularity";
 
 function MainPages() {
   const [selected, setSelected] = useState("");
@@ -18,8 +19,12 @@ function MainPages() {
         <Herosection />
       </div>
       <div>
-
-         <PopularMobiles/>
+      {mobiles.map((v) => {
+        return (
+          <PopularMobiles cardData={v}/>
+        );
+      })}
+         
          
       </div>
     </div>
