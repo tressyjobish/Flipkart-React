@@ -2,24 +2,23 @@ import React from "react";
 import { galaxy12 } from "../assets/Images";
 import "../Styles/PopularMobiles.css";
 import CardItems from "./Constants/Popularity";
-import Card from "../Components/Card";
+import Card from "./Card";
 import { AiFillHeart } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 import { TiTick } from "react-icons/ti";
 import { assurlogo } from "../assets/Images/index";
-import { mobiles } from "../Components/Constants/Popularity";
+import { mobiles } from "./Constants/Popularity";
 function PopularMobiles({cardData}) {
   return (
-    <div>
+    <div className="mobile-left">
       <div className="popular">
-        <div className="popular-mobiles">
-          <h2 className="review">Reviews for Popular Mobiles</h2>
-        </div>
+        
 
         <div className="mobile-respos">
           <div className="mobile-popiular">
-          
-            <img src={galaxy12} alt="" /> 
+            
+        
+              <img src={cardData.imgsrc} alt="" />  
           </div>
           <div className="poco-media">
             <div className="poco">{cardData.heading}</div>
@@ -57,7 +56,7 @@ function PopularMobiles({cardData}) {
                     5 <AiFillStar />
                   </div>
                   <div className="col-most">
-                    <p className="fab">Fabulous</p>
+                    <p className="fab">{cardData.headingb}</p>
                   </div>
                 </div>
                 <div className="fabulous-sentence">

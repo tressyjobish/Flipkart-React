@@ -2,5 +2,9 @@
 
 .main{
     display: flex;
+  
+}
+.popular-mobiles{
     
+    margin-left:5rem;
 }

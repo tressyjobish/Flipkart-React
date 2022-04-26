@@ -12,6 +12,11 @@ import galaxy from "../Images/PopularMobiles/galaxy.jpeg";
 
 import F12 from "../Images/PopularMobiles/F12.jpeg";
 import f22 from "../Images/PopularMobiles/f22.jpeg";
+import down from "../Images/Footer/down.svg";
+import downlord from "../Images/Footer/downlord.svg";
+import social from "../Images/Footer/social.svg";
+import staar from "../Images/Footer/staar.svg";
+import sr from "../Images/Footer/sr.svg";
 
 
 export{
@@ -29,4 +34,9 @@ export{
      galaxy,
     F12,
     f22,
+    down,
+    downlord,
+    social,
+    staar,
+    sr,
 };

@@ -1,7 +1,15 @@
 
+  
+  
   @media only screen and (max-width:560px) {
     .home {
         display: none;
+    
+    }
+    .mob1 img {
+        width:4rem !important;
+    
+    
     
     }
 
@@ -108,8 +116,11 @@
         color: #26A541;
         padding-bottom: 4rem;
     }
+    .wrappermob{
+     border-bottom: 1px solid #f0f0f0;
+    }
 
-    .gb-container {
+    /* .gb-container {
         display: block !important;
         padding-right: 2rem;
         font-size: 13px;
@@ -118,7 +129,7 @@
         color: #878787;
 
 
-    }
+    } */
 
     .div-display {
         display: flex;
@@ -205,6 +216,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
+    
 }
 
 .home-2 {
@@ -250,7 +262,7 @@
 }
 
 .mob1 img {
-    width:4rem;
+    width:7rem;
 
 
 
@@ -279,7 +291,7 @@
 } 
 
 .mob-poco { 
-    padding-left: 4rem; 
+    
     display: flex;
 } 
 
@@ -288,8 +300,10 @@
 }
 
 .ass-logo {
-    padding-left: 1rem;
+    padding-left:2rem;
+    
 }
+
 
 .poco-amount {
     display: flex;
@@ -493,4 +507,7 @@ li::before {
     margin-right: 8px;
     font-weight: 500;
 }  
+.hero-top{
+padding-left: 3rem;
+}
 

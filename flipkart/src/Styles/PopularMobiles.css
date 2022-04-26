@@ -3,6 +3,16 @@
         
         font-size: 1px;
 }
+.mobile-left{
+    margin-left: 3rem;
+}
+
+.review{
+    margin-right:-5rem!important;
+}
+.most-mobile{
+    padding-right: 2rem;
+}
 
 .gb-ram  li{
     font-size:7px;
@@ -17,9 +27,17 @@
 
         
     }
-    .most-mobile{
-        padding-bottom: 2rem;
+    .mobile-most{
+        padding-right:2px ;
+
     }
+    .most-mobile{
+        display: none;
+    }
+    
+    /* .most-mobile{
+        padding-bottom: 2rem;
+    } */
     .most h3{
         
         padding-left: 1rem !important;
@@ -56,10 +74,7 @@
    
     font-family: Roboto,Arial,sans-serif;
     ;}
-    .popular-mobiles{
     
-        margin-left: 2rem;
-    }
     .mobile-respos{
         display: flex;
         margin-left: 4rem;
@@ -203,4 +218,14 @@
     margin-right: 8px;
     display: flex;
     }
+    
+    .mobile-left{
+        margin-left: 3rem;
+    }
+    .most-mobile{
+        padding-left: 4rem;
+    }
+    /* .review{
+        padding-left:5rem;
+    } */
 

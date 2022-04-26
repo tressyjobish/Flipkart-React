@@ -15,7 +15,7 @@ function Herosection() {
     }
   };
   return (
-    <div className="hero-top">
+    <div className="">
       <div className="home">
         <div className="home-mobile">
           <div className="home-1">

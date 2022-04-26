@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import MainLeft from "../Components/MainLeft";
 import Herosection from "../Components/Herosection";
 import PopularMobiles from "../Components/PopularMobiles";
+import Footer from "../Components/Footer";
 import "../Styles/main.css";
 import { mobiles } from "../Components/Constants/Popularity";
 
@@ -19,6 +20,9 @@ function MainPages() {
         <Herosection />
       </div>
       <div>
+      <div className="popular-mobiles">
+          <h2 className="review">Reviews for Popular Mobiles</h2>
+        </div>
       {mobiles.map((v) => {
         return (
           <PopularMobiles cardData={v}/>
@@ -27,6 +31,7 @@ function MainPages() {
          
          
       </div>
+      <Footer/>
     </div>
   );
 }
