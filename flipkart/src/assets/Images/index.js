@@ -17,6 +17,7 @@ import downlord from "../Images/Footer/downlord.svg";
 import social from "../Images/Footer/social.svg";
 import staar from "../Images/Footer/staar.svg";
 import sr from "../Images/Footer/sr.svg";
+import buying from "../Images/MainLeft/buying.png";
 
 
 export{
@@ -39,4 +40,5 @@ export{
     social,
     staar,
     sr,
+    buying
 };

@@ -19,7 +19,7 @@ function PopularMobiles({cardData}) {
             
         
               <img src={cardData.imgsrc} alt="" />  
-          </div>
+         
           <div className="poco-media">
             <div className="poco">{cardData.heading}</div>
             <div className="s">
@@ -31,10 +31,10 @@ function PopularMobiles({cardData}) {
               </div>
               <div className="ratings">
                 <span>45,001 Ratings & 2,541 Reviews</span>
-              </div>
+              </div></div>
               
-               <div>{cardData.price}</div>
-            </div>
+               <div className="rate-mob">{cardData.price}</div>
+            
             <div className="gb-ram">
               <ul>
                 <li className="li">4 GB RAM | 64 GB ROM | Expandable Upto 512 GB</li>
@@ -44,6 +44,7 @@ function PopularMobiles({cardData}) {
               </ul>
             </div>
           </div>
+          </div>
           <div className="most-mobile">
             <div className="mobile-media">
               <div className="mobile-most">
@@ -51,14 +52,18 @@ function PopularMobiles({cardData}) {
                   {" "}
                   <h3 className="most-helpful">Most helpful Review</h3>
                 </div>
+                
                 <div className="fabulous">
-                  <div className="most-col">
-                    5 <AiFillStar />
-                  </div>
-                  <div className="col-most">
-                    <p className="fab">{cardData.headingb}</p>
-                  </div>
+                <div className="most-col">
+                  <span>
+                    1
+                    <AiFillStar />{" "}
+                  </span>{" "}
                 </div>
+                <div className="col-most">
+                  <span className="">{cardData.headingb}</span>
+                </div>
+              </div>
                 <div className="fabulous-sentence">
                   <p>
                     I'm completely satisfied with the products.it is my first<br></br>Samsung phone and bought only for

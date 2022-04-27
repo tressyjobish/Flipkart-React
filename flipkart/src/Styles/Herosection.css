@@ -201,7 +201,7 @@
 } 
  .media-img {
     display: none;
-}
+}}
 
 .home {
     background: #fff;
@@ -212,7 +212,7 @@
 
 
 
-}}
+}
 .card-container {
     display: flex;
     flex-direction: column;
@@ -271,6 +271,7 @@
 
 .wrappermob {
     border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 3rem;
 }
 
 .mob1 {
@@ -510,4 +511,10 @@ li::before {
 .hero-top{
 padding-left: 3rem;
 }
+.main-container{
+    margin-left: 3rem;
+    
+}
+
+
 

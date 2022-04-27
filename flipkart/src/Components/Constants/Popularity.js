@@ -126,30 +126,31 @@ export default CardItems;
 export const mobiles = [
   {imgsrc:mob2,
     heading: "Samsung Galaxy A52(Awesome)",
-    price: 12000,
+    price: "₹12000",
     headingb:"Brilliant"
+  
   },
   {
     imgsrc:mob2,
     heading: "SAMSUNG Galaxy M32(Black)",
-    price: 11000,
+    price: "₹11000",
     headingb:"Best in the merket"
   }, 
    {
     imgsrc:mob3,
     heading: "SAMSUNG Galaxy M12(Black)",
-    price: 12000,
+    price: "₹12000",
     headingb:"Awesome"
   },
   {
     imgsrc:F12,
     heading: "SAMSUNG galaxy F22(Denim)",
-    price: 16000,
+    price: "₹16000",
     headingb:"just okey"
   }, {
     imgsrc:F12,
     heading: "GalaxyF235G(Aqua)",
-    price: 14000,  
+    price: "₹14000",  
     headingb:"Review after using 5 Days"
   },
 ];

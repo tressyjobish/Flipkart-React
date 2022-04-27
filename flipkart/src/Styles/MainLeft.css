@@ -16,10 +16,12 @@
     margin-top: 1rem; 
     border-bottom: 3px solid #f0f0f0;
     flex: 0 0 280px;
-
-    padding: 0px 0px 0px 0px;
-
+    padding: 0px 10px
+    px
+     0px 0px;
 }
+    
+
  
 
 .fliter-content {
@@ -182,3 +184,145 @@ height: 3rem;
 .price{
    font-size: 10px; 
 }
+.mainleft-img{
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+.help span{
+    color: #2874f0;
+}
+.map-a{
+    height: 21.875px;
+    width: 21.5282px;
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-b{
+    height: 25px;
+    width: 21.5282px;
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-c{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-d{
+    height: 18.75px;
+    width: 21.5282px;
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-e{
+    height: 25px;
+    width: 21.5282px;
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-f{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-g{
+    height: 15.52px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-h{
+    height: 15.52px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-i{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-j{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-k{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-l{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.map-m{
+    height: 12.5px;
+    width: 21.5282px; 
+    background: #e0e0e0;
+    display: inline-block;
+}
+.circle-img{
+    position: relative;
+    height: 13px;
+    cursor: pointer;
+    background-color: #2874f0;
+    transform-origin: left center;
+    top: 4px;
+    height: 6px;
+    display: inline-block;
+    top: 6px;
+    width: 100%;
+}
+
+.circle-left{
+    right: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #bababa;
+ 
+    background-color: #fff;
+    top: 3.5px;
+}
+.min-rate{
+    margin-top: 2rem;
+}
+.circle{
+    transform: translateX(-1.19px);
+    right: -13.5px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transform: translateY(px);
+    
+    
+     
+}
+.circle-right{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #bababa;
+  
+    background-color: #fff;
+    top: 3.5px;
+    
+}
+.accordion ul{
+    list-style: none;
+}
+.accordion-content ul{
+    list-style: none;
+}
+

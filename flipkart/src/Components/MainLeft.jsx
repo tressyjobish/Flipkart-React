@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from "react";
+
 import { ReactDOM } from "react-dom";
+
 import { MdKeyboardArrowLeft, MdKeyboardArrowDown } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import {MdOutlineKeyboardArrowRight} from "react-icons/md";
 import { FaSortUp } from "react-icons/fa";
 import { FaSortDown } from "react-icons/fa";
+
 import { assurlogo } from "../assets/Images";
+import { buying } from "../assets/Images";
+
 
 import "../Styles/MainLeft.css";
 function MainLeft({selected, setSelected}) {
@@ -55,24 +61,52 @@ function MainLeft({selected, setSelected}) {
               <span className="price">PRICE</span>
             </div>
           </div>
+          
           <div>
             <div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
-              <div className="map"></div>
+              <div className="map-a">
+
+              </div>
+              <div className="map-b"></div>
+              <div className="map-c"></div>
+              <div className="map-d"></div>
+              <div className="map-e"></div>
+              <div className="map-f"></div>
+              <div className="map-g"></div>
+              <div className="map-h"></div>
+              <div className="map-i"></div>
+              <div className="map-j"></div>
+              <div className="map-k"></div>
+              <div className="map-l"></div>
+              <div className="map-m"></div>
+            </div>
+            <div className="line">
+              
+                <div className="circle">
+                <div className="circle-left">
+                <div className="circle-img">
+                </div>
+               
+                </div> 
+
+              </div>
+              
+                <div className="circle"></div>
+                <div className="circle-img">
+                  <div className="circle-right">
+
+                  </div>
+                  <div className="line">
+
+                  </div>
+                </div>
+
+
+              
             </div>
           </div>
-          <div>
-            <div>
-              <div className="map-search"></div>
-            </div>
+          <div className="min-rate">
+            
             <select className="min">
               <option value="volvo">MIN</option>
               <option value="volvo">₹ 2000</option>
@@ -280,6 +314,12 @@ function MainLeft({selected, setSelected}) {
           <h3 className="brand">CLOCK SPEED</h3>
           <IoIosArrowDown className="arrowdown" />
         </div>
+      </div>
+      <div className="mainleft-img">
+        <div><span>Need Help ?</span></div>
+        <div className="help"><span>Help Me decide <MdOutlineKeyboardArrowRight/></span></div>
+        <div><img src={buying} alt=""/> </div>
+
       </div>
     </div>
     // </section>

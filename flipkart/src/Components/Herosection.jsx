@@ -5,6 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import CardItems from "./Constants/Popularity";
 import Card from "../Components/Card";
 
+
 function Herosection() {
   const [activeButton, setActiveButton] = useState("a");
   const handleDropdownClick = (name) => {
@@ -15,7 +16,7 @@ function Herosection() {
     }
   };
   return (
-    <div className="">
+    <div className="main-container">
       <div className="home">
         <div className="home-mobile">
           <div className="home-1">

@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import MainLeft from "../Components/MainLeft";
 import Herosection from "../Components/Herosection";
 import PopularMobiles from "../Components/PopularMobiles";
+import PriceLow from "../Components/PriceLow ";
 import Footer from "../Components/Footer";
 import "../Styles/main.css";
 import { mobiles } from "../Components/Constants/Popularity";
@@ -13,10 +14,14 @@ function MainPages() {
   return (
     <div>
       <Header />
+     
 
       <Navbar />
+     
+      
       <div className="main">
         <MainLeft selected={selected} setSelected={setSelected} />
+       
         <Herosection />
       </div>
       <div>
@@ -31,6 +36,7 @@ function MainPages() {
          
          
       </div>
+      
       <Footer/>
     </div>
   );
