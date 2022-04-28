@@ -83,9 +83,7 @@
 
 }
 
-.header-third>button:hover {
-    background-color: blueviolet;
-}
+
 
 .header-third>button:hover+.hide {
     display: block;
@@ -148,9 +146,9 @@
     color: white;
 }
 
-.expand-icon:hover {
+/* .expand-icon:hover {
     -webkit-transform: rotate(180deg);
-}
+} */
 
 .cart-icon {
     color: white;
@@ -158,6 +156,9 @@
 
 .login-btn {
     display: none;
+}
+.hide ul{
+    list-style: none;
 }
 
 

@@ -1,57 +1,57 @@
-import { mob1, mob2, mob3,galaxy,f22,F12,gly,galaxy12 } from "../../assets/Images/index";
+import { mob1, mob2, mob3, galaxy, f22, F12, gly, galaxy12 } from "../../assets/Images/index";
 
 const CardItems = [
-  { id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹9,499" },
+  { id: 1, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate:15000 },
   {
     id: 2,
     imgsrc: mob2,
-    heading: "Samsung Galaxy 22(Denim Blue,64 GB)",
+    heading: "g Samsung Galaxy 22(Denim Blue,64 GB)",
     paragraph: "6 GB Ram | 64 GB ROM",
-    rate: "₹9,499",
+    rate: 19000,
   },
   {
     id: 3,
     imgsrc: mob2,
-    heading: "Samsung Galaxy F12 (sea Green)",
+    heading: "z Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹11,499",
+    rate: 11499,
   },
   {
     id: 4,
     imgsrc: mob2,
-    heading: "Samsung Galaxy F12 (sea Green)",
+    heading: "e Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,499",
+    rate:12500,
   },
-  { id: 5, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
+  { id: 5, imgsrc: mob1, heading: "i Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
   {
     id: 6,
     imgsrc: mob3,
-    heading: "Samsung Galaxy F12 (sea Green)",
+    heading: "o Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹9,499",
+    rate:9000,
   },
-  { id: 7, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
+  { id: 7, imgsrc: mob1, heading: "f Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
   {
     id: 8,
     imgsrc: mob2,
-    heading: "Samsung Galaxy 22(Denim Blue,64 GB)",
+    heading: "d Samsung Galaxy 22(Denim Blue,64 GB)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,000",
+    rate:14000,
   },
   {
     id: 9,
     imgsrc: mob3,
-    heading: "Samsung Galaxy F12 (sea Green)",
+    heading: "k Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹11,000",
+    rate:11000,
   },
   {
     id: 10,
     imgsrc: mob2,
-    heading: "Samsung Galaxy F12 (sea Green)",
+    heading: "c Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹10,499",
+    rate: 10000,
   },
   { id: 11, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM" },
   {
@@ -59,28 +59,28 @@ const CardItems = [
     imgsrc: mob3,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,499",
+    rate: 12000,
   },
   {
     id: 2,
     imgsrc: mob2,
     heading: "Samsung Galaxy 22(Denim Blue,64 GB)",
     paragraph: "6 GB Ram | 64 GB ROM",
-    rate: "₹9,499",
+    rate: 9000,
   },
   {
     id: 3,
     imgsrc: mob2,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹11,499",
+    rate: 11000,
   },
   {
     id: 4,
     imgsrc: mob2,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,499",
+    rate:13000,
   },
   { id: 5, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
   {
@@ -88,7 +88,7 @@ const CardItems = [
     imgsrc: mob3,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹9,499",
+    rate:9499,
   },
   { id: 7, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM", rate: "₹11,499" },
   {
@@ -96,21 +96,21 @@ const CardItems = [
     imgsrc: mob2,
     heading: "Samsung Galaxy 22(Denim Blue,64 GB)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,000",
+    rate: 12000,
   },
   {
     id: 9,
     imgsrc: mob3,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹11,000",
+    rate: 11000,
   },
   {
     id: 10,
     imgsrc: mob2,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹10,499",
+    rate: 10000,
   },
   { id: 11, imgsrc: mob1, heading: "Samsung Galaxy F12 (sea Green)", paragraph: "4 GB Ram | 64 GB ROM" },
   {
@@ -118,39 +118,35 @@ const CardItems = [
     imgsrc: mob3,
     heading: "Samsung Galaxy F12 (sea Green)",
     paragraph: "4 GB Ram | 64 GB ROM",
-    rate: "₹12,499",
+    rate: 12000,
   },
 ];
 export default CardItems;
 
 export const mobiles = [
-  {imgsrc:mob2,
-    heading: "Samsung Galaxy A52(Awesome)",
-    price: "₹12000",
-    headingb:"Brilliant"
-  
-  },
+  { imgsrc: mob2, heading: "Samsung Galaxy A52(Awesome)", price: "₹12000", headingb: "Brilliant" },
   {
-    imgsrc:mob2,
+    imgsrc: mob2,
     heading: "SAMSUNG Galaxy M32(Black)",
     price: "₹11000",
-    headingb:"Best in the merket"
-  }, 
-   {
-    imgsrc:mob3,
-    heading: "SAMSUNG Galaxy M12(Black)",
-    price: "₹12000",
-    headingb:"Awesome"
+    headingb: "Best in the merket",
   },
   {
-    imgsrc:F12,
+    imgsrc: mob3,
+    heading: "SAMSUNG Galaxy M12(Black)",
+    price: "₹12000",
+    headingb: "Awesome",
+  },
+  {
+    imgsrc: F12,
     heading: "SAMSUNG galaxy F22(Denim)",
     price: "₹16000",
-    headingb:"just okey"
-  }, {
-    imgsrc:F12,
+    headingb: "just okey",
+  },
+  {
+    imgsrc: F12,
     heading: "GalaxyF235G(Aqua)",
-    price: "₹14000",  
-    headingb:"Review after using 5 Days"
+    price: "₹14000",
+    headingb: "Review after using 5 Days",
   },
 ];

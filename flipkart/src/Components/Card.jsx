@@ -66,7 +66,7 @@ function Card({ cardData }) {
           </div>
           <div className="poco-col">
             <div className="poco-col1">
-              <div className="poco-amt">{cardData.rate}
+              <div className="poco-amt">₹ {cardData.rate}
                  <img src={assurlogo} alt="" className="ass-logo" />
               </div>
               <div className="poco-amount">

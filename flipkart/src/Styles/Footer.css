@@ -89,5 +89,6 @@ margin-left:0 !important;
 }
 .footer-heading footer-5{
 
-    border-left: 3px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 0 25px;
 }
