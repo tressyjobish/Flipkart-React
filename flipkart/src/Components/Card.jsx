@@ -2,11 +2,14 @@ import React from "react";
 import { AiFillHeart } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 import { assurlogo } from "../assets/Images";
+import {moto} from "../assets/Images";
 
 import "../Styles/Card.css";
 
 function Card({ cardData }) {
   return (
+
+ 
     <div className="wrappermob">
       <div className="mob1">
         <img src={cardData.imgsrc} alt="" />
@@ -50,6 +53,7 @@ function Card({ cardData }) {
               </div>
               <div>
                 <h5 className="bank-offer">Bank Offer</h5>
+                <h4 className="view">View All Variants</h4>
               </div>
             </div>
 

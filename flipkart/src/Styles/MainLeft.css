@@ -193,9 +193,6 @@ height: 3rem;
 }
 .map-a{
     height: 21.875px;
-    width: 21.5282px;
-    background: #e0e0e0;
-    display: inline-block;
 }
 .map-b{
     height: 25px;
@@ -325,4 +322,14 @@ height: 3rem;
 .accordion-content ul{
     list-style: none;
 }
+.four-stars{
+    line-height: normal;
+    display: inline-block;
+    
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
 
+}

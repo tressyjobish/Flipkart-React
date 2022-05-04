@@ -1,8 +1,8 @@
 import React from "react";
 import { MdExpandMore } from "react-icons/md";
- import Electronics from "./Electronics";
-import {sortup} from "../assets/Images/index";
-import { sortdown } from "../assets/Images/index";
+//  import Electronics from "./Electronics";
+import {buy} from "../assets/Images/index";
+import { slow } from "../assets/Images/index";
 
 import "../Styles/Navbar.css"
 function Navbar(){
@@ -10,9 +10,9 @@ function Navbar(){
     return(
         <div className="navbar">
             <div className="dropdown">
-                <div className="dropdown-img"><img className="sort-img"src={sortup} alt=""/>
+                <div className="dropdown-img"><img className="sort-img"src={buy} alt=""/>
                 <p className="sortup">Sort</p></div>
-                <div className="dropdown-imgs"><img className="sort-imgs"src={sortdown} alt=""/>
+                <div className="dropdown-imgs"><img className="sort-imgs"src={slow} alt=""/>
                 <p className="sortdown">Fliter</p></div>
                 
                
@@ -26,7 +26,7 @@ function Navbar(){
             <span>Flights</span>
             <span>OfferZone</span>
            </div>
-           <Electronics/>  
+           {/* <Electronics/>   */}
         </div>
         
     )

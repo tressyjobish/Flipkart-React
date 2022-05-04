@@ -50,34 +50,39 @@
           
           .sort-img{
               display: flex;
-              width: 2rem;
-              height: 1rem;
+                  width:30px;
+                 
               margin-top: 1rem;
               
           }
           .sortup{
               display:flex;
-              
-            
-          }
-          .dropdown-img{
+              padding-top:5px;
+        
+            }
+           
+         .dropdown-img{
               display: flex;
             
-          }
+    
+            
+            
+          } 
           .dropdown{
               padding-left: 8rem;
           }
           .sort-imgs{
             display: flex;
-            width: 2rem;
-            height: 3rem;
+            width:25px;
+            
             margin-top: 1rem;
             margin-left: 3rem;
              
           }
           .sortdown{
               display:flex;
-              padding-left: 6rem;
+              padding-left: 5rem;
+              padding-top:10px;
               margin-top: -2rem;
               
           }

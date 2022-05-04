@@ -5,18 +5,18 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import CardItems from "./Constants/Popularity";
 import Card from "../Components/Card";
 import { useEffect } from "react";
+import {moto} from "../assets/Images"
 
 function Herosection() {
   let mobileList = CardItems;
   const [sortType, setSortType] = useState("byDefault");
   const handleDropdownClick = (sortType) => {
-    console.log("haiii");
     setSortType(sortType);
   };
 
   useEffect(() => {
     if (sortType === "byDefault") {
-      mobileList = CardItems;
+      mobileList = CardItems.sort((a, b) => a.rate - b.rate);
       console.log("byDefault");
     } else if (sortType === "byPriceLow") {
       console.log("byPriceLow");
@@ -31,6 +31,7 @@ function Herosection() {
 
   return (
     <div className="main-container">
+       <img src={moto} alt="" className="moto"/>
       <div className="home">
         <div className="home-mobile">
           <div className="home-1">
@@ -56,8 +57,8 @@ function Herosection() {
         <div className="mobile-products">
           <div className="prod-mob">
             <div className="mobile-dispaly">
-              <h3>Mobiles</h3>
-              <span>(showing 1 -24 products of 8095 products)</span>
+            
+              <span>Showing 1 -24 of 751 results for "samsung mobiles"</span>
             </div>
           </div>
         </div>

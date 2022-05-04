@@ -162,11 +162,14 @@ function MainLeft({selected, setSelected}) {
                     <div className="star-above">
                       <label>
                         <input type="checkbox"></input>
-                        <div className="four-star">4★ &amp; above</div>
+                               <div className="four-stars">4★ &amp; above</div><br></br>
+                               <input type="checkbox"></input>  <div className="four-stars">3★ &amp; above</div><br></br>
+                               <input type="checkbox"></input>  <div className="four-stars">2★ &amp; above</div><br></br>
+                               <input type="checkbox"></input>  <div className="four-stars">1★ &amp; above</div><br></br>
                       </label>
                     </div>{" "}
                   </li>
-                  <li>Search Brand</li>
+              
                 </ul>
               }
             </div>

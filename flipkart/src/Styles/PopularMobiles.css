@@ -5,6 +5,9 @@
     
         
 }
+.mobile-left{
+    display: none !important;
+}
 .mobile-media{
     display: flex;
 }

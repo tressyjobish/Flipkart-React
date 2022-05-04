@@ -18,6 +18,9 @@ import social from "../Images/Footer/social.svg";
 import staar from "../Images/Footer/staar.svg";
 import sr from "../Images/Footer/sr.svg";
 import buying from "../Images/MainLeft/buying.png";
+import buy from "../Images/MainLeft/buy.png";
+import slow from "../Images/MainLeft/slow.png";
+import moto from "../Images/MainLeft/moto.jpg";
 
 
 export{
@@ -40,5 +43,9 @@ export{
     social,
     staar,
     sr,
-    buying
+    buying,
+    buy,
+    slow,
+    moto,
+
 };
