@@ -16,16 +16,14 @@ function Header() {
     <div className="header">
       <div className="header-first">
         <AiOutlineArrowLeft className="arrow-icon" />
-        <img className="flip-logo" src={Logo} alt=""/>
-        <h4 className="mobiles-display">Mobiles</h4>
-
-        <img  src={Flipkartplus} alt="" />
-
-        <div className="header-firstb">
+        <img className="flip-logo" src={Logo} alt="" />
+        <h4 className="mobiles-display">Samsung Mobiles</h4>
+        <img src={Flipkartplus} alt="" />
+         <div className="header-firstb">
           <span style={{ fontStyle: "11px", color: "white", fontStyle: "italic" }}>Explore</span>
           <span style={{ color: "#f9e107", fontSize: "11px", fontStyle: "italic" }}>Plus</span>
           <span>
-            <img width="10" src={Plus} alt="" /> 
+            <img width="10" src={Plus} alt="" />
           </span>
         </div>
       </div>
@@ -75,4 +73,4 @@ function Header() {
   );
 }
 
-export default Header; 
+export default Header;

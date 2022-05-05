@@ -7,6 +7,7 @@ const CardItems = [
     imgsrc: mob2,
     heading: " SAMSUNG Galaxy 22(Denim Blue,64 GB)",
     paragraph: "6 GB Ram | 64 GB ROM",
+    paragraph: "16.76 cm (6.6 inch) Full HD + Display",
     rate: 19000,
   },
   {

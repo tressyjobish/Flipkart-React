@@ -2,14 +2,12 @@ import React from "react";
 import { AiFillHeart } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 import { assurlogo } from "../assets/Images";
-import {moto} from "../assets/Images";
+import { moto } from "../assets/Images";
 
 import "../Styles/Card.css";
 
 function Card({ cardData }) {
   return (
-
- 
     <div className="wrappermob">
       <div className="mob1">
         <img src={cardData.imgsrc} alt="" />
@@ -70,8 +68,9 @@ function Card({ cardData }) {
           </div>
           <div className="poco-col">
             <div className="poco-col1">
-              <div className="poco-amt">₹ {cardData.rate}
-                 <img src={assurlogo} alt="" className="ass-logo" />
+              <div className="poco-amt">
+                ₹ {cardData.rate}
+                <img src={assurlogo} alt="" className="ass-logo" />
               </div>
               <div className="poco-amount">
                 <div className="poco-amt2">₹ 11,999</div>

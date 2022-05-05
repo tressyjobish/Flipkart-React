@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import CardItems from "./Constants/Popularity";
 import Card from "../Components/Card";
 import { useEffect } from "react";
-import {moto} from "../assets/Images"
+import { moto } from "../assets/Images";
 
 function Herosection() {
   let mobileList = CardItems;
@@ -31,7 +31,7 @@ function Herosection() {
 
   return (
     <div className="main-container">
-       <img src={moto} alt="" className="moto"/>
+      <img src={moto} alt="" className="moto" />
       <div className="home">
         <div className="home-mobile">
           <div className="home-1">
@@ -57,7 +57,6 @@ function Herosection() {
         <div className="mobile-products">
           <div className="prod-mob">
             <div className="mobile-dispaly">
-            
               <span>Showing 1 -24 of 751 results for "samsung mobiles"</span>
             </div>
           </div>

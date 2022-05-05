@@ -1,65 +1,64 @@
-
-
 .electronics-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 4rem;
-    padding-top: 2rem;
-  }
-  .electronics-li {
-    display: flex;
-    padding: 1rem;
-    flex-wrap: nowrap;
-    justify-content: center;
-    text-align: left;
-    padding-left: 2rem;
-    
-  }
-  
-  .electronics-li  h4 {
-    font-size: 13px;
-    font-weight: 600;
-    padding-bottom: 1rem;
-  }
-  
-  .electronics-li ul {
-    line-height: 2rem;
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-  .header-elec{
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+  padding-top: 2rem;
+}
+
+.electronics-li {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: left;
+  padding-left: 2rem;
+
+}
+
+.electronics-li h4 {
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.electronics-li ul {
+  line-height: 2rem;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-elec {
+  position: relative;
 }
 
 .header-elec>button {
 
-    border: none;
-    outline: none;
-    width: 6vw;
-    color: #2874f0;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    padding: 7px;
+  border: none;
+  outline: none;
+  width: 6vw;
+  color: #2874f0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 7px;
 
 }
 
 
 
 .header-elec>button:hover+.hide-seek {
-background-color: aqua;
-    display: flex;
-    position: absolute;
-    top: 5vh;
-    left: 0;
+  background-color: aqua;
+  display: flex;
+  position: absolute;
+  top: 5vh;
+  left: 0;
 
-    padding: 15px;
-    color: red;
-}
- .hide-seek{
-
-    display: none;
+  padding: 15px;
+  color: red;
 }
 
+.hide-seek {
 
+  display: none;
+}

@@ -1,93 +1,106 @@
 @media only screen and (max-width:560px) {
-    .poco-media{
-        padding-top:7px !important;
+    .poco-media {
+        padding-top: 7px !important;
         padding-right: px !important;
-    
-        
-}
-.mobile-left{
-    display: none !important;
-}
-.mobile-media{
-    display: flex;
-}
 
-.mobile-popiular img{
-    width: 3rem;
-    height:4rem;
-   
-    margin-right: 7rem;
-} 
-
-
-
-.most-mobile{
-    padding-right: 2rem;
-}
-
-.gb-ram  li{
-    font-size:7px;
 
     }
-    .gb-ram ul{
+
+    .mobile-left {
+        display: none !important;
+    }
+
+    .mobile-media {
+        display: flex;
+    }
+
+    .mobile-popiular img {
+        width: 3rem;
+        height: 4rem;
+
+        margin-right: 7rem;
+    }
+
+
+
+    .most-mobile {
+        padding-right: 2rem;
+    }
+
+    .gb-ram li {
+        font-size: 7px;
+
+    }
+
+    .gb-ram ul {
         font-size: 10px !important;
-        line-height:7px !important;
+        line-height: 7px !important;
 
     }
+
     .mobile-most p {
         font: size 2px !important;
 
-        
+
     }
-    .mobile-most{
-        padding-right:2px ;
+
+    .mobile-most {
+        padding-right: 2px;
         padding-top: -2rem;
-        
-    
+
+
 
     }
-    .col-most span{
-        font-size:1rem;
-        
+
+    .col-most span {
+        font-size: 1rem;
+
 
     }
-    
-    
+
+
     /* .most-mobile{
         padding-bottom: 2rem;
     } */
-    .most h3{
-        
+    .most h3 {
+
         padding-left: 1rem !important;
     }
-    .most-helpful{
-        padding-right:1rem;
+
+    .most-helpful {
+        padding-right: 1rem;
         display: flex;
     }
-     .fabulous-sentence p{
-         font-size:6px;
-     }
-     .fabulous{
+
+    .fabulous-sentence p {
+        font-size: 6px;
+    }
+
+    .fabulous {
         margin-left: 1rem !important;
         font-size: 2rem;
-     }
-     .read span{
-         font-size:5px;
-     }
-     .name p{
-         font-size:5px;
-     }
-     .fab{
-         font-size: 3px;
-     }
-     
-     .very-poor p{
-         font-size: 5px;
-     }
-    
+    }
+
+    .read span {
+        font-size: 5px;
+    }
+
+    .name p {
+        font-size: 5px;
+    }
+
+    .fab {
+        font-size: 3px;
+    }
+
+    .very-poor p {
+        font-size: 5px;
+    }
+
 
 }
-.mobile-left{
+
+.mobile-left {
     line-height: 1;
     padding: 20px 0 30px 24px;
     display: block;
@@ -96,22 +109,26 @@
     margin-left: 3rem;
 }
 
-.review {font-size:20px;
+.review {
+    font-size: 20px;
     font-weight: 500;
     padding: 10px 20px;
-  
-   
-    font-family: Roboto,Arial,sans-serif;
-    ;}
-    
-    .mobile-respos{
-        display: flex;
-        margin-left: 4rem;
-    }
-   .s{
-       margin-left: 3rem;
-   }
-   .four-star{
+
+
+    font-family: Roboto, Arial, sans-serif;
+    ;
+}
+
+.mobile-respos {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.s {
+    margin-left: 3rem;
+}
+
+.four-star {
     line-height: normal;
     display: inline-block;
     color: #fff;
@@ -121,165 +138,190 @@
     font-size: 12px;
     vertical-align: middle;
     background-color: #388e3c;
-   }
-     .most-mobile{
-        display: flex;
-    } 
-    .most h3{
-        display: flex;
-         padding-left:8rem; 
-        font-size: 14px;
-        color: #878787;
-    }
-    .most-col{
-        line-height: normal;
+}
+
+.most-mobile {
+    display: flex;
+}
+
+.most h3 {
+    display: flex;
+    padding-left: 8rem;
+    font-size: 14px;
+    color: #878787;
+}
+
+.most-col {
+    line-height: normal;
     display: inline-block;
     color: #fff;
-     padding: 2px 4px 2px 6px; 
+    padding: 2px 4px 2px 6px;
     border-radius: 3px;
     font-weight: 500;
     font-size: 12px;
     vertical-align: middle;
     background-color: #388e3c;
-    
-    }
-      .mobile-popiular img{
-        width: 4rem;
-       
-        margin-right: 5rem;
-    } 
-    .mobile-popiular{
-        display: flex;
-        padding-right: 2rem;
-    }
-       .fab{
-        display: flex;
-        padding-left: 12px;
+
+}
+
+.mobile-popiular img {
+    width: 4rem;
+
+    margin-right: 5rem;
+}
+
+.mobile-popiular {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.fab {
+    display: flex;
+    padding-left: 12px;
     padding-top: 3px;
     font-size: 14px;
     color: #212121;
     font-weight: 500;
-    }  
-    .fabulous{
-        display: flex;
-        margin-left: 8rem;
-    } 
-    .fabulous-sentence{
-        padding-left: 3rem;
-        color: #212121;
-        font-size: 14px;
-        font-family: roboto,Arial,sans-serif;
-    }
-    .fabulous-sentence p{
+}
+
+.fabulous {
+    display: flex;
+    margin-left: 8rem;
+}
+
+.fabulous-sentence {
+    padding-left: 3rem;
+    color: #212121;
+    font-size: 14px;
+    font-family: roboto, Arial, sans-serif;
+}
+
+.fabulous-sentence p {
     line-height: 1rem;
-    }
-    .read{
-        cursor: pointer;
+}
+
+.read {
+    cursor: pointer;
     font-size: 14px;
     color: #2874f0;
     font-weight: 500;
     padding-left: 3rem;
-    }
-    .name{
-        font-size: 12px;
+}
+
+.name {
+    font-size: 12px;
     color: #878787;
     margin-right: 8px;
-    
-    }
-    .name{
-        display: flex;
-      padding-left: 4rem;
-        }
-    
-    .tick{
-        margin-right: 4px;
-        width: 14px;
-        height: 14px;
-        vertical-align: sub; 
-        padding-top:9px;
-        background-color:black;
-        fill: rgb(135, 135, 135);
-        
+
+}
+
+.name {
+    display: flex;
+    padding-left: 4rem;
+}
+
+.tick {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+    vertical-align: sub;
+    padding-top: 9px;
+    background-color: black;
+    fill: rgb(135, 135, 135);
+
     display: inline-block;
 
     cursor: pointer;
     line-height: 32px;
-    height:20px;
+    height: 20px;
     width: 20px;
     border-radius: 50%;
-    }
-.gb-ram{
-    font-size:13px;
-    line-height:2rem;
-} 
-.li{
-    display: none;
-    
 }
-.gb-ram li{
+
+.gb-ram {
+    font-size: 13px;
+    line-height: 2rem;
+}
+
+.li {
+    display: none;
+
+}
+
+.gb-ram li {
     list-style: none;
 }
-.review-content{
+
+.review-content {
     display: flex;
     padding-left: 8rem;
     font-size: 14px;
     color: #878787;
 }
- .review-rating{
+
+.review-rating {
 
     line-height: normal;
     display: inline-block;
     color: #fff;
-    
+
     border-radius: 3px;
     font-weight: 500;
     font-size: 12px;
     vertical-align: middle;
-    background-color: #ff6161!important;
+    background-color: #ff6161 !important;
     margin-left: 7rem;
 
-} 
-.terrible-product span{
+}
+
+.terrible-product span {
     display: flex;
     font-size: 15px;
-    
+
 
 }
-.recent-review{
-    display:flex;
+
+.recent-review {
+    display: flex;
 }
-.poor-battery{
+
+.poor-battery {
     padding-left: 8rem;
-    
-}.very-poor{
+
+}
+
+.very-poor {
     font-size: 15px;
     padding-left: 8rem;
 }
-.name-rating{
+
+.name-rating {
     font-size: 12px;
     color: #878787;
     margin-right: 8px;
     display: flex;
-    }
-    
-    /* .mobile-left{
+}
+
+/* .mobile-left{
         margin-left: 3rem;
     } */
-    .most-mobile{
-        padding-left: 4rem;
-    }
-    /* .review{
+.most-mobile {
+    padding-left: 4rem;
+}
+
+/* .review{
         padding-left:5rem;
     }  */
-    .poco-media{
-        padding-top: 2rem;
-    }
-    .s{
-        display: flex;
-        padding-top:1rem;
-    }
-    .rate-mob{
-        padding-left: 3rem;
-        padding-top: 1rem;
-    }
+.poco-media {
+    padding-top: 2rem;
+}
 
+.s {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.rate-mob {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}

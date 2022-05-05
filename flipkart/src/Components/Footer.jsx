@@ -1,9 +1,9 @@
 import React from "react";
 import "../Styles/Footer.css";
-import {down} from "../assets/Images/index";
-import {downlord} from "../assets/Images/index";
-import {sr} from "../assets/Images/index";
-import {staar} from "../assets/Images/index";
+import { down } from "../assets/Images/index";
+import { downlord } from "../assets/Images/index";
+import { sr } from "../assets/Images/index";
+import { staar } from "../assets/Images/index";
 import { social } from "../assets/Images/index";
 
 function Footer() {
@@ -67,15 +67,32 @@ function Footer() {
         </div> */}
       </div>
       <div className="footer-content">
-      <div className="footer-link">
-      <img src={down} alt=""/><h3 className="become">Become a seller</h3>
+        <div className="footer-link">
+          <img src={down} alt="" />
+          <h3 className="become">Become a seller</h3>
+        </div>
+        <div className="footer-link">
+          <img src={downlord} alt="" />
+          <h3 className="become">Advertise</h3>
+        </div>
+        <div className="footer-link">
+          <img src={sr} alt="" />
+          <h3 className="become">Gift Card</h3>
+        </div>
+        <div className="footer-link">
+          <img src={staar} alt="" />
+          <h3 className="become">Become a seller</h3>
+        </div>
+        <div className="footer-link">
+          {" "}
+          <span> © 2007-2022</span>
+          <span>Flipkart</span>
+        </div>
+        <div className="footer-link">
+          <img src={social} alt="" />
+        </div>
+      </div>
     </div>
-    <div className="footer-link"><img src={downlord} alt=""/><h3 className="become">Advertise</h3></div>
-    <div className="footer-link"><img src={sr} alt=""/><h3 className="become">Gift Card</h3></div>
-    <div className="footer-link"><img src={staar} alt=""/><h3 className="become">Become a seller</h3></div>
-    <div className="footer-link"> <span> © 2007-2022</span><span>Flipkart</span></div>
-    <div className="footer-link"><img src={social} alt=""/></div>
-    </div></div>
   );
 }
 

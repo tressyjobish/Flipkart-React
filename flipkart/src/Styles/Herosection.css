@@ -1,39 +1,43 @@
-*{
+* {
     font-family: Roboto, Helvetica, Arial, sans-serif
 }
-  
-  
-  @media only screen and (max-width:560px) {
-      .moto{
-          display: flex !important;
-          width: 27rem;
-          margin-right: rem;
-      }
-      .view{
-          display: flex !important;
-          color: rgba(40,116,240,1.00);
-          padding-right:4rem;
-      }
-   
-    .colum-number{
+
+
+@media only screen and (max-width:560px) {
+    .moto {
+        display: flex !important;
+        width: 27rem;
+        margin-right: rem;
+    }
+
+    .view {
+        display: flex !important;
+        color: rgba(40, 116, 240, 1.00);
+        padding-right: 4rem;
+    }
+
+    .colum-number {
         display: none;
     }
-    .number{
-    display: none !important;
+
+    .number {
+        display: none !important;
     }
-    .yes-no{
-        display: none  !important;
+
+    .yes-no {
+        display: none !important;
     }
-    
+
     .home {
         display: none;
-    
+
     }
+
     .mob1 img {
-        width:4rem !important;
-    
-    
-    
+        width: 4rem !important;
+
+
+
     }
 
     .mob-checkbox {
@@ -58,7 +62,7 @@
 
     .poco {
         font-size: 15px !important;
-        font-weight: 400;
+
     }
 
     .media {
@@ -90,12 +94,12 @@
     }
 
     .mob-poco {
-    
-         align-items: center;
-        text-align: start;
-    } 
 
-     .media-image {
+        align-items: center;
+        text-align: start;
+    }
+
+    .media-image {
         display: flex !important;
     }
 
@@ -136,26 +140,15 @@
 
     .bank-offer {
         display: flex !important;
-        padding-left:2rem;
+        padding-left: 2rem;
         color: #26A541;
-        padding-bottom: 4rem;
-    }
-    .wrappermob{
-     border-bottom: 1px solid #f0f0f0;
+    
     }
 
-    /* .gb-container {
-        display: block !important;
-        padding-right: 2rem;
-        font-size: 13px;
-        text-align: center;
-        line-height: 1rem;
-        color: #878787;
-
-
-    } */
-
-    .div-display {
+    .wrappermob {
+        border-bottom: 1px solid #f0f0f0;
+    }
+     .div-display {
         display: flex;
         margin-top: 5px;
 
@@ -171,17 +164,14 @@
 
         object-fit: contain;
         opacity: 1;
-
-
-    }
+        }
 
     .div-1 {
         border: 1px solid #878787;
         border-radius: 2px;
-         border-style: groove;
-        color: #878787;}
-         
-    
+        border-style: groove;
+        color: #878787;
+    }
 
      .div-2 {
         border: 1px solid #878787;
@@ -212,20 +202,26 @@
         text-align: center;
         padding-left: 1rem;
         margin-left: 1rem;
-    } 
+    }
 
 
- .hero-top{
-    display: flex;
-    flex-grow: 1;
-    overflow: auto;
-    
+    .hero-top {
+        display: flex;
+        flex-grow: 1;
+        overflow: auto;
 
 
-} 
- .media-img {
-    display: none;
-}}
+
+    }
+
+    .media-img {
+        display: none;
+    }
+    .pococ31{
+    padding:1rem !important;
+    line-height:1rem !important;
+    }
+}
 
 .home {
     background: #fff;
@@ -233,15 +229,16 @@
     border-bottom: 2px solid #f0f0f0;
     margin-top: 1rem;
     margin-left: 2rem;
-    line-height:2rem;
+    line-height: 2rem;
 
 
 
 }
+
 .card-container {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .home-2 {
@@ -269,10 +266,10 @@
 }
 
 .mobile-dispaly span {
-    padding-top: 1rem;
+
     color: #878787;
     font-size: 12px;
-    padding-left: 1rem;
+
 }
 
 .mobile-dispaly h3 {
@@ -287,7 +284,7 @@
 }
 
 .mob1 img {
-    width:7rem;
+    width: 7rem;
 
 
 
@@ -310,25 +307,26 @@
 .poco {
     padding-left: 2rem;
     font-size: 17px;
-    
+    font-weight: 600;
+
 }
 
 .poco:hover {
     color: #2874f0;
-} 
+}
 
-.mob-poco { 
-    
+.mob-poco {
+
     display: flex;
-} 
+}
 
- .poco-amt {
+.poco-amt {
     padding-left: 5rem;
 }
 
 .ass-logo {
-    padding-left:2rem;
-    
+    padding-left: 2rem;
+
 }
 
 
@@ -347,7 +345,7 @@
 .pococ31 {
     line-height: 1.5rem;
     font-size: 12px;
-     padding-left: 4rem; 
+    padding-left:4rem;
 }
 
 .poco-col1 {
@@ -458,38 +456,44 @@ li::before {
     border-bottom: 3px solid transparent;
 
 }
-.number{
-    background:#fff;
+
+.number {
+    background: #fff;
     border-top: 1px solid #e0e0e0;
     border-bottom: 10px solid #e0e0e0;
-   
-    justify-content:space-between;
+
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     line-height: 32px;
     display: flex;
 }
-.num{
+
+.num {
     display: flex;
 }
-.colum-number{
+
+.colum-number {
     display: flex;
 }
-.row-number{
-    padding-left:10rem;
- 
+
+.row-number {
+    padding-left: 10rem;
+
     text-align: center;
     font-weight: 500;
     display: flex;
     gap: 2rem;
 
 }
-.row-number a{
-    text-decoration:none;
+
+.row-number a {
+    text-decoration: none;
     border: none;
     outline: none;
 }
-.figure-a{
+
+.figure-a {
     background-color: #2874f0;
     display: inline-block;
     padding: 0 8px;
@@ -499,62 +503,73 @@ li::before {
     width: 32px;
     border-radius: 50%;
 }
-.figure-c{
+
+.figure-c {
     display: inline-block;
     line-height: 32px;
     color: #2874f0;
     padding: 0 25px;
     text-transform: uppercase;
 }
-.yes-no{
+
+.yes-no {
     margin: 10px 0px 0px;
     display: flex;
     border-bottom: 10px solid #e0e0e0;
 }
-.data-yes{
+
+.data-yes {
     display: flex;
 
 }
-.option{
+
+.option {
     padding-left: 3rem;
-    gap:3rem;
+    gap: 3rem;
     display: flex;
 }
-.option-yes{
+
+.option-yes {
     border-radius: 2px;
     border: 1px solid #d7d7d7;
     padding: 6px 28px;
     margin-right: 8px;
     font-weight: 500;
 }
-.option-no{
+
+.option-no {
     border-radius: 2px;
     border: 1px solid #d7d7d7;
     padding: 6px 28px;
     margin-right: 8px;
     font-weight: 500;
-}  
-.hero-top{
-padding-left: 3rem;
 }
-.main-container{
+
+.hero-top {
+    padding-left: 3rem;
+}
+
+.main-container {
     margin-left: 3rem;
-    
+
 }
- .moto{
-     display: none;
- }
- .view{
-     display: none;
- }
- .mobile-dispaly span{
-     color: #000000;
-     font-size: 15px;
-     
- }
- .pococ31{
-     padding-left: 2remet;
- }
 
+.moto {
+    display: none;
+}
 
+.view {
+    display: none;
+}
+
+.mobile-dispaly span {
+    color: #000000;
+    font-size: 15px;
+
+}
+.gb-ul li{
+    line-height:2rem;
+    font-size: 15px;
+    font-weight: 500;
+}
 
